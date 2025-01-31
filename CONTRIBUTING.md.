@@ -1,0 +1,77 @@
+# Contributing to HopeSphere Analytics 📊
+
+Thank you for your interest in contributing to the HopeSphere project! Please follow these guidelines to ensure a smooth workflow.
+
+## ⚙ Prerequisites
+Before contributing, ensure you have the following installed:
+
+- **Python** >= 3.8
+- **pip** (Python package manager)
+- **PostgreSQL** (если используется база данных)
+- **Git**
+
+## 🚀 Setting Up the Project
+1. **Fork the repository** (Click the "Fork" button on GitHub).
+2. **Clone your fork** to your local machine:
+   ```bash
+   git clone https://github.com/YourUsername/HopeSphere-Analytics.git
+
+Navigate into the project folder:
+bash
+cd HopeSphere-Analytics
+
+📦 Install Dependencies
+Run the following command to install project dependencies:
+
+bash
+pip install -r requirements.txt
+
+🏃 Start the Development Server
+Run the following command to launch the development server:
+
+bash
+python main.py
+
+🌱 Creating a New Branch
+Always create a separate branch for your feature or bug fix:
+
+bash
+git checkout -b feature-name
+
+📤 Pushing Changes
+Push your branch to GitHub:
+
+bash
+git push origin feature-name
+Then go to GitHub and open a Pull Request (PR) to merge your changes
+
+🎨 Code Style & Formatting
+Follow PEP8 guidelines for Python code.
+Use black for auto-formatting:
+
+bash
+black .
+Run linters before committing:
+bash
+flake8
+
+🔒 Security Guidelines
+Do not expose API keys or sensitive credentials in public repositories.
+Report security vulnerabilities via GitHub Issues.
+Use strong authentication methods for repository access.
+
+🤝 Contributing Guidelines
+Open an issue before starting work on a feature.
+Assign yourself to an issue to prevent duplicate work.
+Keep PRs small and focused on a single feature or fix.
+Follow the code review process before merging.
+
+🏅 Contributor Recognition
+We appreciate all contributions! Top contributors will be featured in the Hall of Fame and get early access to new features.
+
+📩 Need Help?
+If you have any questions, feel free to reach out via:
+
+GitHub Discussions
+Discord Community
+Email: hopesphere@proton.me
